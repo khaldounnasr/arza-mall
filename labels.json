@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Product Backlog",
+    "color": "ededed",
+    "description": "Unprioritized product backlog item"
+  },
+  {
+    "name": "Sprint Backlog",
+    "color": "fbca04",
+    "description": "Committed for current sprint"
+  },
+  {
+    "name": "Technical Debt",
+    "color": "b60205",
+    "description": "Refactoring/quality improvements"
+  },
+  {
+    "name": "Bug",
+    "color": "d73a4a",
+    "description": "Defect"
+  },
+  {
+    "name": "Enhancement",
+    "color": "a2eeef",
+    "description": "New feature"
+  },
+  {
+    "name": "UX/UI",
+    "color": "c5def5",
+    "description": "Design & usability"
+  },
+  {
+    "name": "Marketing",
+    "color": "0e8a16",
+    "description": "Growth & acquisition"
+  },
+  {
+    "name": "QA",
+    "color": "5319e7",
+    "description": "Testing & quality assurance"
+  }
+]

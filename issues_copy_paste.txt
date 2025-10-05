@@ -1,0 +1,240 @@
+Issue 1 Title:
+Category browsing (Home/Kitchen/Beauty/Electronics)
+
+Body (paste into the issue):
+**As a** shopper
+**I need** to browse products by category
+**So that** I can quickly find relevant items
+
+### Acceptance Criteria
+```gherkin
+Given I am on the homepage
+When I click on a category (e.g., Home)
+Then I see a paginated list of items in that category
+```
+
+**Estimate:** 3 points
+**Labels:** Product Backlog, UX/UI, Enhancement
+
+------------------------------------------------------------
+
+Issue 2 Title:
+Search & filters (price, brand, rating)
+
+Body (paste into the issue):
+**As a** shopper
+**I need** to search and filter products
+**So that** I can narrow down to what I want
+
+### Acceptance Criteria
+```gherkin
+Given I am on the products page
+When I apply filters or search
+Then results update without full page reload and match my filters
+```
+
+**Estimate:** 5 points
+**Labels:** Product Backlog, UX/UI, Enhancement
+
+------------------------------------------------------------
+
+Issue 3 Title:
+Product detail page & add-to-cart
+
+Body (paste into the issue):
+**As a** shopper
+**I need** to view product details and add to cart
+**So that** I can decide and purchase
+
+### Acceptance Criteria
+```gherkin
+Given I am on a product detail page
+When I select quantity and click Add to Cart
+Then the cart updates and shows confirmation
+```
+
+**Estimate:** 3 points
+**Labels:** Product Backlog, UX/UI, Enhancement
+
+------------------------------------------------------------
+
+Issue 4 Title:
+Checkout with COD and credit card
+
+Body (paste into the issue):
+**As a** shopper
+**I need** to checkout with COD and card
+**So that** I can pay the way I prefer
+
+### Acceptance Criteria
+```gherkin
+Given items in my cart
+When I checkout and choose COD or card
+Then the order is created and I get confirmation
+```
+
+**Estimate:** 5 points
+**Labels:** Product Backlog, Enhancement
+
+------------------------------------------------------------
+
+Issue 5 Title:
+Marketing analytics (UTM, ROAS, conversions)
+
+Body (paste into the issue):
+**As a** marketing manager
+**I need** to track UTMs and conversions
+**So that** I can measure ROAS and optimize ads
+
+### Acceptance Criteria
+```gherkin
+Given campaigns use UTM parameters
+When purchases happen
+Then conversion is attributed and visible on dashboard
+```
+
+**Estimate:** 3 points
+**Labels:** Product Backlog, Marketing, Enhancement
+
+------------------------------------------------------------
+
+Issue 6 Title:
+Inventory sync & low-stock alerts
+
+Body (paste into the issue):
+**As a** sourcing lead
+**I need** inventory sync and low-stock alerts
+**So that** we avoid overselling
+
+### Acceptance Criteria
+```gherkin
+Given connected supplier stock
+When stock falls below threshold
+Then alert is sent and product badge shows 'Low stock'
+```
+
+**Estimate:** 3 points
+**Labels:** Product Backlog, Enhancement
+
+------------------------------------------------------------
+
+Issue 7 Title:
+Zendesk support integration
+
+Body (paste into the issue):
+**As a** support agent
+**I need** Zendesk integration
+**So that** I can manage tickets
+
+### Acceptance Criteria
+```gherkin
+Given Zendesk widget is enabled
+When a user requests help
+Then a ticket is created and can be tracked
+```
+
+**Estimate:** 2 points
+**Labels:** Product Backlog, Enhancement
+
+------------------------------------------------------------
+
+Issue 8 Title:
+Regression test checklist before release
+
+Body (paste into the issue):
+**As a** QA coordinator
+**I need** a regression checklist
+**So that** we prevent critical bugs shipping
+
+### Acceptance Criteria
+```gherkin
+Given a release candidate
+When QA executes the checklist
+Then all critical paths (login, checkout) pass
+```
+
+**Estimate:** 2 points
+**Labels:** Product Backlog, QA
+
+------------------------------------------------------------
+
+Issue 9 Title:
+Technical Debt: Optimize images (lazy-load, compression)
+
+Body (paste into the issue):
+**As a** developer
+**I need** to optimize images and bundle
+**So that** pages load fast
+
+### Acceptance Criteria
+```gherkin
+Given product listing pages
+When images load
+Then LCP and CLS meet Core Web Vitals thresholds
+```
+
+**Estimate:** 2 points
+**Labels:** Technical Debt
+
+------------------------------------------------------------
+
+Issue 10 Title:
+Technical Debt: Harden checkout validation & error handling
+
+Body (paste into the issue):
+**As a** developer
+**I need** stronger checkout validation
+**So that** we reduce failed orders and chargebacks
+
+### Acceptance Criteria
+```gherkin
+Given invalid payment or address
+When the shopper submits checkout
+Then clear validation appears and no order is created
+```
+
+**Estimate:** 3 points
+**Labels:** Technical Debt
+
+------------------------------------------------------------
+
+Issue 11 Title:
+PM dashboard (CAC, CVR, AOV, ROAS)
+
+Body (paste into the issue):
+**As a** project manager
+**I need** a KPI dashboard
+**So that** I can review project health
+
+### Acceptance Criteria
+```gherkin
+Given connected analytics
+When I open the dashboard
+Then KPIs (CAC, CVR, AOV, ROAS) show with trendlines
+```
+
+**Estimate:** 3 points
+**Labels:** Product Backlog, Enhancement
+
+------------------------------------------------------------
+
+Issue 12 Title:
+Dual-courier setup with SLA and fallback
+
+Body (paste into the issue):
+**As an** operations manager
+**I need** dual-courier with SLA
+**So that** deliveries remain reliable
+
+### Acceptance Criteria
+```gherkin
+Given two courier integrations
+When one carrier is down
+Then orders route to the alternate automatically
+```
+
+**Estimate:** 5 points
+**Labels:** Product Backlog, Enhancement
+
+------------------------------------------------------------
+
